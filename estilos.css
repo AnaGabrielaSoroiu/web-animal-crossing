@@ -6,11 +6,18 @@ p {
     font-size: 12pt;
     font-family: 'Sacramento', cursive;
     text-align: justify;
-    clear: both;
+    
 
     margin-left: 20px;
     margin-right: 50px;
 }
+
+.texto-imagen {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    margin-left: 20px;
+    margin-right: 20px;}
 
 ul {
     margin-left: 20px;
@@ -22,11 +29,17 @@ ul {
 }
 
 .sin_margen {
-    font-size: 12pt;
+    font-size: 10pt;
     font-family: 'Sacramento', cursive;
     text-align: justify;
     clear: both;
 
     margin-left: 0px;
     margin-right: 0px;
+}
+
+.gif1{
+    width: 200px;
+    height: auto;
+    align-items: center;
 }
