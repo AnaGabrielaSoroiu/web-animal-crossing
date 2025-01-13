@@ -1,0 +1,32 @@
+body {
+    background-image: url(Multimedia/fondo.png);
+}
+
+p {
+    font-size: 12pt;
+    font-family: 'Sacramento', cursive;
+    text-align: justify;
+    clear: both;
+
+    margin-left: 20px;
+    margin-right: 50px;
+}
+
+ul {
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 12pt;
+    font-family: 'Sacramento', cursive;
+    text-align: justify;
+    clear: both;
+}
+
+.sin_margen {
+    font-size: 12pt;
+    font-family: 'Sacramento', cursive;
+    text-align: justify;
+    clear: both;
+
+    margin-left: 0px;
+    margin-right: 0px;
+}
