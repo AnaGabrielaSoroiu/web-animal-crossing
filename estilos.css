@@ -3,7 +3,7 @@ body {
 }
 
 p {
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: cursive;
     text-align: justify;
     
@@ -12,13 +12,68 @@ p {
     margin-right: 50px;
 }
 
+h2, h3 {
+    font-family: cursive;
+    font-size: 26px;
+    text-align: center;
+    color: #f48fb1;
+    background-color: #fce4ec;
+    padding: 10px;
+    margin: 30px auto 15px;
+    border-radius: 8px;
+    width: fit-content;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
 ul {
     margin-left: 20px;
     margin-right: 50px;
-    font-size: 12pt;
+    font-size: 14pt;
     font-family: cursive;
     text-align: justify;
     clear: both;
+}
+
+ol {
+    margin-left: 20px;
+    margin-right: 50px;
+    font-size: 14pt;
+    font-family: cursive;
+    text-align: justify;
+    clear: both;
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: left;
+    background-color: #fdf3f6;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+th,td {
+    padding: 12px 15px;
+    border: 1px solid #f3d1dc;    
+}
+
+th {
+    background-color: #fce4ec;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #fdf6fa;
+}
+
+tr:hover {
+    background-color: #fdeef4;
+    transition: background-color 0.3s;
 }
 
 nav {
@@ -71,8 +126,12 @@ nav a:active {
 }
 
 .img_tabla {
-    width: 100px;
+    width: 50px;
     height: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .gif1{
@@ -82,11 +141,14 @@ nav a:active {
 }
 
 .rectangulo {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin: 30px auto;
     width: 80%;
     border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border: 2px solid rgba(244, 143, 177, 0.3);
 }
 
 /*.texto-imagen {
