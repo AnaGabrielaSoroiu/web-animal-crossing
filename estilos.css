@@ -16,8 +16,8 @@ h2, h3 {
     font-family: cursive;
     font-size: 26px;
     text-align: center;
-    color: #f48fb1;
-    background-color: #fce4ec;
+    color: white;
+    background-color:  #FFB6C1;
     padding: 10px;
     margin: 30px auto 15px;
     border-radius: 8px;
@@ -126,34 +126,58 @@ nav a:active {
 }
 
 .img_tabla {
-    width: 50px;
+    width: 70px;
     height: auto;
     display: block;
-    margin: 0 auto;
-    border-radius: 8px;
+    margin: 10px auto;
+    border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.gif1{
-    width: 200px;
-    height: auto;
+.gif1 {
+    max-width: 220px;
+    max-height: auto;
     align-items: center;
+    border-radius: 8px;
+    object-fit: cover;
+    
+
+    transition: transform 0.3s ease;
+}
+
+.gif1:hover {
+    transform: scale(1.05);
 }
 
 .rectangulo {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
     margin: 30px auto;
-    width: 80%;
+    width: 85%;
     border-radius: 10px;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
     box-sizing: border-box;
     border: 2px solid rgba(244, 143, 177, 0.3);
 }
 
-/*.texto-imagen {
+.rectangulo_img {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    margin: 30px auto;
+    width: 85%;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    box-sizing: border-box;
+    border: 2px solid rgba(244, 143, 177, 0.3);
     display: flex;
-    align-items: flex-start;
-    gap: 20px;
-    margin-left: 20px;
-    margin-right: 20px;}*/
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 10px; 
+}
+
+.rectangulo_img p {
+    flex: 1; 
+    font-size: 14pt;
+
+}
