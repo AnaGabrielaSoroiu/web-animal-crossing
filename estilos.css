@@ -1,5 +1,5 @@
 body {
-    background-image: url(Multimedia/fondo.png);
+    background-image: url(Multimedia/fondo.webp);
 }
 
 p {
@@ -70,6 +70,11 @@ nav a:active {
     margin-right: 0px;
 }
 
+.img_tabla {
+    width: 100px;
+    height: auto;
+}
+
 .gif1{
     width: 200px;
     height: auto;
@@ -84,9 +89,9 @@ nav a:active {
     border-radius: 10px;
 }
 
-.texto-imagen {
+/*.texto-imagen {
     display: flex;
     align-items: flex-start;
     gap: 20px;
     margin-left: 20px;
-    margin-right: 20px;}
+    margin-right: 20px;}*/
