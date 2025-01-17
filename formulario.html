@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <head>
     <meta charset="UTF-8">
-    <title>Refugio Isleño</title> 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Refugio Isleño</title> 
-    <link rel="icon" href="Multimedia/icono.jpg" type="image/jpeg">
+    <title>Refugio Isleño - Formulario</title> 
+    <link rel="icon" href="Multimedia/icono.webp" type="image/jpeg">
     <link rel="stylesheet" href="estilos.css">
 </head>
 
@@ -17,11 +16,33 @@
     <nav>
         <a href="index.html">Inicio</a>
         <a href="personajes.html">Personajes</a>
-        <a href="formulario.html">Formulario</a>
+        <a href="foro.html">Foro</a>
     </nav>
-   <!-- usar metodo get o otro para el foro -->
 
-    
+    <h2>Deja tu comentario</h2>
 
+    <form action="foro.html" method="get">
+        <div class="campo">
+            <label for="Nombre">Nombre: </label>
+            <input type="text" id="nombre" name="nombre" required required maxlength="50" pattern="[A-Za-zÀ-ÿ\s]+" 
+            title="Solo se permiten letras y espacios." placeholder="Ingrese su nombre completo...">
+        </div>
+
+        <div class="campo">
+            <label for="correo">Correo electrónico: </label>
+            <input type="email" id="correo" name="correo" required placeholder="Ingrese su correo..." 
+            pattern="[a-zA-Z0-9._%+-]+@gmail\.com" title="Por favor ingrese un correo de Gmail válido (ejemplo@gmail.com)">
+        </div>
+
+        <div class="campo">
+            <label for="comentario">Comentario: </label>
+            <textarea id="comentario" name="comentario" rows="4" required maxlength="500" placeholder="Ingrese un comentario!"></textarea>
+        </div>
+
+        <div class="campo">
+            <button type="submit" class="boton">Enviar</button>
+        </div>
+
+    </form>
 
 </body>
