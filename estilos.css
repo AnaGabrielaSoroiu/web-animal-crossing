@@ -45,6 +45,11 @@ ol {
     clear: both;
 }
 
+dd {
+    font-size: 14pt;
+    font-family: cursive;
+}
+
 /*Decoracion del link de la lista ordenada*/
 .link {
     color: #FFB6C1; 
@@ -63,7 +68,6 @@ ol {
 }
 
 /*Decoracion de la tabla*/
-
 table {
     width: 90%;
     border-collapse: collapse;
@@ -98,7 +102,6 @@ tr:hover {
 }
 
 /*La barra para moverme entre los diferentes .html*/
-
 nav {
     display: flex;
     justify-content: center;
@@ -195,7 +198,6 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 /*Decoracion con respecto a los rectangulos de la pagina*/
-
 .rectangulo {
     background-color: rgba(255, 255, 255, 0.9);
     padding: 20px;
@@ -208,7 +210,6 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 /*Posicion y animacion del gif*/
-
 .gif1 {
     max-width: 220px;
     max-height: auto;
@@ -252,7 +253,6 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 /*Decoracion para el boton del foro*/
-
 .boton {
     display: inline-block;
     padding: 8px 16px;
@@ -272,7 +272,6 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 /*Agregamos una simulacion de comentarios decorados de otra manera*/
-
 .comentarios {
     margin-top: 20px;
     padding: 15px;
@@ -311,7 +310,6 @@ audio::-webkit-media-controls-volume-slider {
 }
 
 /*Decoracion del formulario*/
-
 form {
     margin-top: 20px;
     padding: 20px;
