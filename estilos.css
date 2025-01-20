@@ -45,11 +45,6 @@ ol {
     clear: both;
 }
 
-dd {
-    font-size: 14pt;
-    font-family: cursive;
-}
-
 /*Decoracion del link de la lista ordenada*/
 .link {
     color: #FFB6C1; 
@@ -79,6 +74,9 @@ table {
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     overflow: hidden;
+
+    display: block;
+    overflow-x: auto;
 }
 
 th,td {
