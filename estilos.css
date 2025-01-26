@@ -85,6 +85,7 @@ th,td {
 }
 
 th {
+    text-align: center;
     background-color: #fce4ec;
     font-size: 20px;
     font-weight: bold;
@@ -96,6 +97,44 @@ tr:nth-child(even) {
 
 tr:hover {
     background-color: #fdeef4;
+    transition: background-color 0.3s;
+}
+
+/* Decoracion para la tabla masculina, solamente cambiando los colores*/
+.tabla_m {
+    width: 90%;
+    border-collapse: collapse;
+    margin: 20px auto;
+    font-family: cursive;
+    font-size: 18px;
+    text-align: left;
+    background-color: #c3dfe9;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: block;
+    overflow-x: auto;
+}
+
+.tabla_m td, .tabla_m th {
+    padding: 12px 15px;
+    border: 1px solid #10778b;    
+}
+
+.tabla_m th {
+    text-align: center;
+    background-color: #add8e6;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tabla_m tr:nth-child(even) {
+    background-color: #add8e6;
+}
+
+.tabla_m tr:hover {
+    background-color: rgb(157, 202, 218);
     transition: background-color 0.3s;
 }
 
