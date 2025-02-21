@@ -1,0 +1,58 @@
+<!--
+ La parte fija del fichero xml correspondiente a un rss 
+-->
+<rss version="2.0">
+<channel>
+<title>Refugio Isleño</title>
+<link>https://anagabrielasoroiu.github.io/web-animal-crossing/</link>
+<description>Explicación del juego y algunas de sus funcionalidades
+y definiciones.</description>
+
+<!-- La parte fija opcional -->
+<language>es-ES</language>
+<image>
+<title>Título de la Imagen</title>
+<url>http://www.mipagina.com/logotipo-del-rss.png</url>
+<link>http://www.mipagina.com</link>
+<width>90</width>
+<height>36</height>
+</image>
+
+<!--
+ La parte variable, la que corresponde a cada noticia o ítem 
+-->
+
+<!--De la página personajes-->
+<item>
+<title>Personajes</title>
+<link>
+https://anagabrielasoroiu.github.io/web-animal-crossing/personajes.html
+</link>
+<description>Explicación de los personajes, en los cuales explicamos
+tanto las personalidades de los vecinos masculinos como los
+femeninos.</description>
+</item>
+
+<!--De la página foro-->
+<item>
+<title>Foro</title>
+<link>
+https://anagabrielasoroiu.github.io/web-animal-crossing/foro.html
+</link>
+<description>Simulación de un foro con sus comentarios y un
+botón para poder realizar tu comentario.</description>
+</item>
+
+<!--De la página del formulario-->
+<item>
+<title>Formulario</title>
+<link>
+https://anagabrielasoroiu.github.io/web-animal-crossing/formulario.html
+</link>
+<description>Para poder realizar un comentario, se realiza al 
+usuario un cuestionario para pedirle el nombre, email y
+su comentario.</description>
+</item>
+
+</channel>
+</rss>

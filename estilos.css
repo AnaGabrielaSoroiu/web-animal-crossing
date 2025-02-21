@@ -72,7 +72,7 @@ h2, h3 {
     font-size: 26px;
     text-align: center;
     color: white;
-    background-color:  #FFB6C1;
+    background-color:  hsl(335, 83%, 84%);
     padding: 10px;
     margin: 30px auto 15px;
     border-radius: 8px;
@@ -486,4 +486,9 @@ button.boton {
 
 button.boton:hover {
     background-color: #e38aa8;
+}
+
+.icono_rss {
+    width: 30px;
+    height: 30px;
 }
